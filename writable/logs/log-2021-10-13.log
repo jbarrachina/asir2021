@@ -1,0 +1,28 @@
+CRITICAL - 2021-10-13 11:17:14 --> Class "App\Controllers\AlumnosModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\AlumnosController->index()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-13 11:30:34 --> Call to undefined method App\Models\AlumnesModel::order_by
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/AlumnosController.php(25): CodeIgniter\Model->__call()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\AlumnosController->index()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-13 12:21:14 --> Class "App\Models\GrupsModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\GrupsController->index()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-13 12:21:46 --> Invalid file: grups/llistat.php
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/GrupsController.php(24): view()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\GrupsController->index()
+#4 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,128 @@
+CRITICAL - 2021-10-11 08:44:44 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:46:11 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:47:18 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:47:46 --> Undefined constant "App\Controllers\tonto"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->bienvenida()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 08:48:10 --> Undefined variable $tonto
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->bienvenida()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:48:54 --> Undefined variable $tonto
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->bienvenida()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:49:16 --> Undefined variable $tonto
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->bienvenida()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:50:04 --> Too few arguments to function App\Controllers\Home::bienvenida(), 1 passed in /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->bienvenida()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 08:55:35 --> Class "App\Controllers\Controller" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(491): include_once()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-11 09:11:25 --> Class "App\Controllers\AlumnesModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->alumnos()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 09:11:43 --> Class "App\Controllers\AlumneModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->alumnos()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 09:12:17 --> Class "App\Controllers\App\Models\AlumneModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->alumnos()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 09:15:09 --> Call to undefined function App\Controllers\findAll()
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->alumnos()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 09:49:30 --> Undefined array key "codigo"
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Views/grups/llista.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(214): include('...')
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/Home.php(33): view()
+#5 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->grups()
+#6 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 09:49:58 --> Attempt to read property "codigo" on array
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Views/grups/llista.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(214): include('...')
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/Home.php(33): view()
+#5 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->grups()
+#6 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 09:52:18 --> Class "App\Controllers\GrupModel" not found
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\Home->grups()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-11 09:55:37 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 09:55:51 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

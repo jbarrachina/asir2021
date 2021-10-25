@@ -1,0 +1,21 @@
+CRITICAL - 2021-10-18 08:50:01 --> Undefined constant "NIA"
+#0 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(214): include()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/AlumnosController.php(43): view()
+#4 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\AlumnosController->grup()
+#5 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-18 08:54:00 --> Undefined variable $grup
+#0 /home/depinf/lampstack/frameworks/codeigniter/app/Views/grups/llista.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(214): include('...')
+#2 /home/depinf/lampstack/frameworks/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depinf/lampstack/frameworks/codeigniter/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/depinf/lampstack/frameworks/codeigniter/app/Controllers/GrupsController.php(24): view()
+#5 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(802): App\Controllers\GrupsController->index()
+#6 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/depinf/lampstack/frameworks/codeigniter/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/depinf/lampstack/frameworks/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
