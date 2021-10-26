@@ -8,8 +8,8 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
 use App\Models\AlumnesModel;
+use CodeIgniter\Controller;
 
 /**
  * Description of AlumnosController
@@ -27,11 +27,13 @@ class AlumnosController extends Controller{
     }
     
     public function grup($grup='2CFSS'){
+        helper('data');
         $datos['titol'] = "Llistat d'Alumnes del Grupo $grup";
         $alumnos = new AlumnesModel();
         $datos['alumnes'] = $alumnos
                 ->select("CONCAT(alumnos.apellido1,' ',alumnos.apellido2,', ',alumnos.nombre) as nombre_completo")
                 ->select('alumnos.id, alumnos.NIA, alumnos.email, matricula.estado')
+                ->select('fecha_nac')
                 ->join('matricula','matricula.NIA=alumnos.NIA','LEFT')
                 ->where(['matricula.grupo'=>$grup])
                 ->orderBy('nombre_completo')

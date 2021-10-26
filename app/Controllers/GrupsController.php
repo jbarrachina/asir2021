@@ -10,6 +10,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\GrupsModel;
+use App\Libraries\Auxiliar;
 
 /**
  * Description of GrupsController
